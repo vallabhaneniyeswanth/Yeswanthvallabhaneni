@@ -35,7 +35,7 @@ I'm a passionate Software Developer pursuing a Master's in Computer Science at t
 ### 🌐 Connect with Me  
 - [LinkedIn](https://www.linkedin.com/in/yeswanthvallabhaneni)  
 - Email: yvyqx@umsystem.edu  
-- Portfolio: [Yeswanth's Portfolio](https://github.com/vallabhaneniyeswanth/Yeswanthvallabhaneni/blob/main/yeswanth.html)  
+- Portfolio: [Yeswanth's Portfolio](https://yeswanth1234.s3.us-east-1.amazonaws.com/yeswanth.html)  
 
 ### 🎯 Career Objective  
 Dedicated to developing innovative technological solutions in software development, machine learning, and cloud computing, with a focus on leveraging advanced academic training and industry certifications.
