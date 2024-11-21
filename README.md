@@ -33,7 +33,7 @@ I'm a passionate Software Developer pursuing a Master's in Computer Science at t
 ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourgithubusername&show_icons=true&theme=radical)
 
 ### 🌐 Connect with Me  
-- [LinkedIn](https://www.linkedin.com/in/vallabhaneni-yeswanth-850a221a2/)  
+- [LinkedIn]([https://www.linkedin.com/in/vallabhaneni-yeswanth-850a221a2/])  
 - Email: yvyqx@umsystem.edu  
 - Portfolio: [Yeswanth's Portfolio](https://github.com/vallabhaneniyeswanth/Yeswanthvallabhaneni/blob/main/yeswanth.html)  
 
