@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeswanth Vallabhaneni - Software Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f4f8;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: white;
+            text-align: center;
+            padding: 60px 0;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
+        header h1 {
+            font-size: 3.5rem;
+            font-weight: 600;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            opacity: 0.9;
+        }
+        section {
+            padding: 40px 20px;
+            margin: 20px auto;
+            max-width: 1200px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            font-size: 2.2rem;
+            margin-bottom: 25px;
+            color: #6a11cb;
+            border-bottom: 3px solid #6a11cb;
+            padding-bottom: 10px;
+            font-weight: 600;
+        }
+        .content-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .content-box {
+            background: #f9f9ff;
+            border-radius: 10px;
+            padding: 25px;
+            width: 48%;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease;
+        }
+        .content-box:hover {
+            transform: translateY(-5px);
+        }
+        .content-box ul, .content-box p {
+            margin-bottom: 15px;
+        }
+        .content-box h3 {
+            color: #2575fc;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        footer {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        a {
+            color: #6a11cb;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #2575fc;
+            text-decoration: underline;
+        }
+        .project-list {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .project-item {
+            background-color: #e6e9f0;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #2c3e50;
+        }
+        .github-stats img {
+            max-width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        @media (max-width: 768px) {
+            .content-box {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Yeswanth Vallabhaneni</h1>
+    <p>Software Developer | Machine Learning Enthusiast | Cloud Computing Expert</p>
+</header>
+
+<section id="about">
+    <h2>👋 Hello, I'm Yeswanth!</h2>
+    <p>I am a passionate Software Developer pursuing a Master's in Computer Science at the University of Missouri-Kansas City (UMKC), with a B.Tech in Computer Science and Engineering. I specialize in <strong>Machine Learning</strong>, <strong>Cloud Computing</strong>, and <strong>Full-Stack Development</strong>, and I am committed to solving complex technological challenges through innovative software solutions.</p>
+</section>
+
+<section id="skills">
+    <h2>🚀 Technical Skills</h2>
+    <div class="content-container">
+        <div class="content-box">
+            <h3>Languages</h3>
+            <p>Python, Java, C, C++, JavaScript</p>
+        </div>
+        <div class="content-box">
+            <h3>Web Technologies</h3>
+            <p>Django, Angular, Node.js, HTML, CSS</p>
+        </div>
+        <div class="content-box">
+            <h3>Databases</h3>
+            <p>Oracle SQL, MySQL</p>
+        </div>
+        <div class="content-box">
+            <h3>Cloud Platforms</h3>
+            <p>AWS, Microsoft Azure</p>
+        </div>
+    </div>
+</section>
+
+<section id="certifications">
+    <h2>🏆 Certifications</h2>
+    <div class="content-container">
+        <div class="content-box">AWS Developer Associate</div>
+        <div class="content-box">Microsoft Azure AZ-900</div>
+        <div class="content-box">Aviatrix Multi-Cloud Certified Engineer</div>
+        <div class="content-box">Oracle Certified Foundation Associate</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>📊 Project Highlights</h2>
+    <div class="content-container">
+        <div class="content-box">
+            <h3>Alzheimer's Disease Prediction</h3>
+            <p><strong>Technologies:</strong> Decision Tree, Random Forest, SVM</p>
+            <p>Built machine learning models for predicting Alzheimer's disease early, helping improve diagnosis timelines.</p>
+        </div>
+        <div class="content-box">
+            <h3>Travel Tourism Website</h3>
+            <p><strong>Technologies:</strong> Django, Python</p>
+            <p>Developed a full-stack web application for tourism management, including booking systems and information pages.</p>
+        </div>
+        <div class="content-box">
+            <h3>Event Management System</h3>
+            <p><strong>Technologies:</strong> Angular, Node.js, SQL</p>
+            <p>Designed an event management system for seamless event organization, scheduling, and ticketing.</p>
+        </div>
+    </div>
+</section>
+
+<section id="github-stats" class="github-stats">
+    <h2>📈 GitHub Stats</h2>
+    <img src="https://github-readme-stats.vercel.app/api?username=yourgithubusername&show_icons=true&theme=radical" alt="Your GitHub Stats">
+</section>
+
+<section id="contact">
+    <h2>🌐 Connect with Me</h2>
+    <p><strong>Email:</strong> <a href="mailto:yvyqx@umsystem.edu">yvyqx@umsystem.edu</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/vallabhaneni-yeswanth-850a221a2/">Yeswanth Vallabhaneni</a></p>
+</section>
+
+<section id="career-objective">
+    <h2>🎯 Career Objective</h2>
+    <p>As a software developer, my goal is to create innovative solutions that leverage the power of <strong>machine learning</strong> and <strong>cloud computing</strong>. With my solid foundation in computer science and hands-on experience, I aim to develop efficient, scalable, and impactful technology solutions.</p>
+</section>
+
+<section id="interests">
+    <h2>💡 Interests</h2>
+    <ul class="project-list">
+        <li class="project-item">Traveling</li>
+        <li class="project-item">Cooking</li>
+        <li class="project-item">Reading</li>
+        <li class="project-item">Music</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2024 Yeswanth Vallabhaneni | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
